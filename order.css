@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+#generateBtn {
+    padding: 0.7em 3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.6s ease all;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#generateBtn:hover {
+    background-color: #ff4500;
+}
+
+#suggestion {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
