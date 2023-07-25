@@ -7,7 +7,7 @@ body {
 .container {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 20%;
     transform: translate(-50%, -50%);
     text-align: center;
 }
@@ -34,10 +34,42 @@ h1 {
 }
 
 #generateBtn:hover {
-    background-color: #ff4500;
+    background-color: #19b87e;
 }
 
 #suggestion {
     font-size: 1.5em;
     margin-top: 1em;
 }
+
+.animation{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width:1000px;
+    height:650px;
+    background-color:rgb(7, 7, 7);
+
+}
+.curve-container{
+    position:absolute;
+}
+.curve-container .bg{
+ width:1000px;
+ z-index:1;   
+}
+
+.food{
+    position:absolute;
+    left:10%;
+}
+.food .suggested-image{
+   
+    width:400px;
+    height:400px;
+    z-index:2;   
+   }
+  
+
+
